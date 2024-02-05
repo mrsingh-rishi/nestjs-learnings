@@ -1,8 +1,8 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Req } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  helloWorld() {
+    return 'API Is Working';
   }
 }
